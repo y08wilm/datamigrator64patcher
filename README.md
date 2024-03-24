@@ -7,7 +7,7 @@ gcc Kernel64Patcher.c -o Kernel64Patcher
 ```
 ## Usage:
 ```
-./Kernel64Patcher kcache.raw kcache.patched -e -p
+./Kernel64Patcher com.apple.datamigrator.raw com.apple.datamigrator.patched -n
 ```
 ## Credits/Thanks
 * xerub for patchfinder64
